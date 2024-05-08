@@ -43,6 +43,7 @@ extends:
   parameters:
     projectName: "ffc-sfd-customer-receiver-preferences"
     serviceName: "ffc-sfd-customer-receiver-preferences"
+    teamName: "ffc-sfd"
     deployFromFeature: ${{ parameters.deployFromFeature }}
     deployConfigOnly: ${{ parameters.deployConfigOnly }}
     appBuildConfig:
