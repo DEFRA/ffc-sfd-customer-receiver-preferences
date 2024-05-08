@@ -1,0 +1,19 @@
+services:
+  ffc-sfd-customer-receiver-preferences:
+    build:
+      context: .
+      target: production
+    image: ffc-sfd-customer-receiver-preferences
+    container_name: ffc-sfd-customer-receiver-preferences
+    depends_on:
+      - ffc-sfd-customer-receiver-preferences-postgres
+    environment:
+      APPINSIGHTS_CLOUDROLE: ffc-sfd-customer-receiver-preferences-local
+      APPINSIGHTS_CONNECTIONSTRING: ${APPINSIGHTS_CONNECTIONSTRING}
+
+  ffc-sfd-customer-receiver-preferences-postgres:
+    image: postgres:11.4-alpine
+    environment:
+      POSTGRES_DB: ffc-sfd-customer-receiver-preferences
+      POSTGRES_PASSWORD: ppp
+      POSTGRES_USERNAME: postgres
