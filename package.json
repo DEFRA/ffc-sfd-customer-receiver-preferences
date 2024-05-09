@@ -1,6 +1,6 @@
 {
   "name": "ffc-sfd-customer-receiver-preferences",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "homepage": "github.com?owner=defra&repo=ffc-sfd-customer-receiver-preferences&organization=defra",
   "main": "app/index.js",
@@ -16,7 +16,10 @@
     "start:debug": "nodemon --inspect-brk=0.0.0.0 --ext js --legacy-watch app/index.js"
   },
   "author": "Defra",
-  "contributors": [],
+  "contributors": [
+    "Fay Toward <fay.toward@defra.gov.uk>",
+    "Rana Salem <rana.salem@defra.gov.uk>"
+  ],
   "license": "OGL-UK-3.0",
   "dependencies": {
     "@hapi/hapi": "21.3.2",
