@@ -1,6 +1,6 @@
 require('./insights').setup()
 require('log-timestamp')
-const { startMessaging } = require('./messages')
+const { startMessaging } = require('./preferences')
 const { DEVELOPMENT } = require('./constants/environments')
 
 // Disable TLS validation in development to allow connection to cosmosDb emulator
