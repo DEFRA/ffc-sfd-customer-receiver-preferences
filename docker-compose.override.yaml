@@ -9,19 +9,10 @@ services:
     image: ffc-sfd-customer-receiver-preferences-development
     container_name: ffc-sfd-customer-receiver-preferences-development
     ports:
-      - "3000:3000"
-      - "9229:9229"
+      - "3015:3015"
+      - "9015:9229"
     volumes:
       - ./app:/home/node/app
       - ./test:/home/node/test
       - ./scripts:/home/node/scripts
       - ./package.json:/home/node/package.json
-
-  ffc-sfd-customer-receiver-preferences-postgres:
-    ports:
-      - "5432:5432"
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
-
-volumes:
-  postgres_data:
