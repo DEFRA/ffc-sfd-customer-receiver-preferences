@@ -1,10 +1,10 @@
 const Joi = require('joi')
 
 const schema = Joi.object({
-  endpoint: Joi.string(),
-  key: Joi.string(),
-  preferencesDatabase: Joi.string().default('ffc-sfd-customer-receiver-preferences'),
-  preferencesContainer: Joi.string().default('preferences-container')
+  endpoint: Joi.string().optional(),
+  key: Joi.string().optional(),
+  preferencesDatabase: Joi.string().optional().default('ffc-sfd-customer-receiver-preferences'),
+  preferencesContainer: Joi.string().optional().default('preferences-container')
 })
 
 const config = {
