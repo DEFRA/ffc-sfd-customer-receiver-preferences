@@ -1,6 +1,6 @@
 {
   "name": "ffc-sfd-customer-receiver-preferences",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "",
   "homepage": "github.com?owner=defra&repo=ffc-sfd-customer-receiver-preferences&organization=defra",
   "main": "app/index.js",
@@ -23,9 +23,9 @@
     "@azure/cosmos": "^4.0.0",
     "@hapi/hapi": "21.3.2",
     "applicationinsights": "2.8.0",
-    "ffc-messaging": "^2.9.0",
-    "joi": "^17.13.1",
-    "log-timestamp": "^0.3.0"
+    "ffc-messaging": "2.9.0",
+    "joi": "17.13.1",
+    "log-timestamp": "0.3.0"
   },
   "devDependencies": {
     "@types/jest": "29.5.11",

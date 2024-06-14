@@ -10,7 +10,7 @@ if (process.env.NODE_ENV === DEVELOPMENT) {
 
 const init = async () => {
   await startMessaging()
-  console.log('Running receiver service for messages')
+  console.log('Running receiver service for preferences')
 }
 
 process.on('unhandledRejection', (err) => {
