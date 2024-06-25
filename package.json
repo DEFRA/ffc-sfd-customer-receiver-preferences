@@ -1,6 +1,6 @@
 {
   "name": "ffc-sfd-customer-receiver-preferences",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "",
   "homepage": "github.com?owner=defra&repo=ffc-sfd-customer-receiver-preferences&organization=defra",
   "main": "app/index.js",
