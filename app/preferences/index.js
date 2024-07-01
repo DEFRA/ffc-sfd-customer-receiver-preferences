@@ -22,7 +22,7 @@ const startMessaging = async () => {
     receiverAction
   )
   await preferencesReceiver.subscribe()
-  console.info('Messages receiver is ready to consume messages')
+  console.info('Preferences receiver is ready to consume messages')
 }
 
 module.exports = { startMessaging }
