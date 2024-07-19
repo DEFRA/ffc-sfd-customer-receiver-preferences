@@ -1,4 +1,5 @@
 const Joi = require('joi')
+const { DEVELOPMENT, TEST, PRODUCTION } = require('../constants/environments')
 
 const schema = Joi.object({
   endpoint: Joi.string().optional(),
