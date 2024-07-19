@@ -7,3 +7,5 @@
   value: "fcp-sfd-customer-preferences"
 - key: PREFERENCES_SUBSCRIPTION_ADDRESS
   value: "fcp-sfd-customer-receiver-preferences"
+- key: COSMOS_ENDPOINT
+  value: "https://fcp-sfd-temp-cosmos.documents.azure.com:443/"
