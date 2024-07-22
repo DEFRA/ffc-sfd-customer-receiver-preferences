@@ -1,9 +1,9 @@
-const cosmos = require('../cosmos')
+const cosmosInstance = require('../cosmos')
 const { cosmosConfig } = require('../config')
 
 const saveToCosmos = async (message) => {
   try {
-    const { preferencesDatabase } = await cosmos()
+    const { preferencesDatabase } = await cosmosInstance()
 
     await preferencesDatabase
       .container(cosmosConfig.preferencesContainer)
